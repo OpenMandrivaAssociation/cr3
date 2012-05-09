@@ -113,13 +113,13 @@ mv build buildwx
 %if %{with qt}
 mv buildqt build
 %makeinstall_std -C build
-mv %{buildroot}/usr/bin/cr3{,-qt}
+mv %{buildroot}%{_bindir}/cr3{,-qt}
 mv build buildqt
 %endif
 
 %if %{with gtk}
 mv buildwx build
 %makeinstall_std -C build
-mv %{buildroot}/usr/bin/cr3{,-gtk}
+mv %{buildroot}%{_bindir}/cr3{,-gtk}
 mv build buildwx
 %endif
