@@ -7,7 +7,7 @@ Release:    %mkrel 1
 Summary:    A multiplatform e-book viewer
 Group:      Applications/Text
 License:    GPL
-URL:        http://sourceforge.net/projects/crengine/
+URL:        https://sourceforge.net/projects/crengine/
 
 #
 # git archive --format=tar \
